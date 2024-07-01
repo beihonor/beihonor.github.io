@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="http://qwookyaw884.wikidot.com/local--files/start/bei2"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -80,8 +80,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>国内的互联网产品的话，我目前只见过QQ音乐学生认证后低价开通VIP。别的话就比较孤陋寡闻了。而线下貌似就比较多了，有各种各样的用学生证领取优惠什么的。</p>
 <p>教育优惠这件事还是让我比较有感触的。不论是国内国外，大家都给予了学生这个群体很大的关爱与关怀。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://beihonor.github.io"> 北子的博客 </a>
 <p>
@@ -136,6 +138,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
